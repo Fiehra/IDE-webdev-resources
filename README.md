@@ -1,2 +1,3 @@
-# institute for digital eductation - web development - resources
+# institute for digital education - web development
+
 web development course learning resources
