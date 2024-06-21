@@ -67,11 +67,25 @@ a page to help you choose the right easing function for your CSS animations
 1. keycode references - https://keyjs.dev/ \
 great website to get the JavaScript keydown event key, code, which and keyCode properties
 
+2. free api references - https://github.com/public-api-lists/public-api-lists
+ - a list of free APIs you can use in your projects
+
 
 ## colors and images
 
 
 ## design inspiration
 
+
+## database and server-side development
+
+1. mongoDB - https://www.mongodb.com/
+ - a general purpose, document-based, distributed database built for modern application developers and for the cloud era
+
+2. expressJS - https://expressjs.com/
+ - a fast, unopinionated, minimalist web framework for Node.js
+
+3. subabase - https://supabase.io/
+ - an open-source Firebase alternative. Instantly add authentication, a realtime database, serverless functions, and storage to your project 
 
 
