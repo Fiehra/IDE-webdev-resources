@@ -56,6 +56,11 @@ a desktop and mobile browser support table for modern web technologies
 3. CSS easing functions - https://easings.net/ \
 a page to help you choose the right easing function for your CSS animations
  
+4. tailwindcss - https://tailwindcss.com/
+ - a utility-first CSS framework for rapidly building custom designs
+
+5. bootstrap - https://getbootstrap.com/
+ - a popular CSS framework for developing responsive and mobile-first websites
 
 ## javaScript
 
