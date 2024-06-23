@@ -1,0 +1,54 @@
+CHALLENGE #2
+
+Tom und Jerry möchten ihre Sprintgeschwindigkeiten vergleichen. Die Geschwindigkeit (in m/s) wird mit der Formel berechnet: Geschwindigkeit = Strecke / Zeit (Strecke in Metern und Zeit in Sekunden).
+
+Deine Aufgabe ist es, einen Code zu schreiben, um ihnen dabei zu helfen:
+
+    Speichere Toms und Jerrys Strecke und Zeit in Variablen namens distanceTom, timeTom, distanceJerry und timeJerry.
+    Berechne ihre jeweiligen Geschwindigkeiten mit der Formel und speichere die Ergebnisse in zwei Variablen namens speedTom und speedJerry.
+    Gib die Werte von speedTom und speedJerry in der Konsole aus.
+    BONUS: Erstelle eine boolesche Variable tomFaster, die angibt, ob Tom eine höhere Geschwindigkeit als Jerry hat. Gib diese Information ebenfalls in der Konsole aus.
+
+Testdaten 1:
+
+    Tom läuft 100 Meter in 10 Sekunden.
+    Jerry läuft 120 Meter in 12 Sekunden.
+
+Testdaten 2:
+
+    Tom läuft 80 Meter in 8 Sekunden.
+    Jerry läuft 90 Meter in 9 Sekunden.
+
+Hier ist der JavaScript-Code für diese Übung mit Tom und Jerry:
+
+javascript
+
+// Testdaten 1
+let distanceTom = 100;
+let timeTom = 10;
+let distanceJerry = 120;
+let timeJerry = 12;
+
+let speedTom = distanceTom / timeTom;
+let speedJerry = distanceJerry / timeJerry;
+
+console.log("SpeedTom:", speedTom);
+console.log("SpeedJerry:", speedJerry);
+
+let tomFaster = speedTom > speedJerry;
+console.log("Ist Tom schneller als Jerry?", tomFaster);
+
+// Testdaten 2
+distanceTom = 80;
+timeTom = 8;
+distanceJerry = 90;
+timeJerry = 9;
+
+speedTom = distanceTom / timeTom;
+speedJerry = distanceJerry / timeJerry;
+
+console.log("SpeedTom:", speedTom);
+console.log("SpeedJerry:", speedJerry);
+
+tomFaster = speedTom > speedJerry;
+console.log("Ist Tom schneller als Jerry?", tomFaster);
