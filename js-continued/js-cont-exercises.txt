@@ -1,0 +1,58 @@
+CHALLENGE #2
+
+Tom and Jerry möchten ihre Sprintgeschwindigkeiten vergleichen. Die Geschwindigkeit (in m/s) wird mit der Formel berechnet: Geschwindigkeit = Strecke / Zeit (Strecke in Metern und Zeit in Sekunden).
+
+Deine Aufgabe ist es, einen Code zu schreiben, um ihnen dabei zu helfen:
+
+    Gib eine klare Ausgabe in der Konsole aus, die dem Benutzer mitteilt, wer schneller ist. Die Nachricht kann entweder lauten:
+
+    "Tom läuft schneller als Jerry!" oder "Jerry läuft schneller als Tom!".
+
+    Passe die obigen Ausgaben an, um Template Literals zu verwenden und die Geschwindigkeiten in die Ausgabe einzubeziehen.
+
+    Beispiel: "Tom läuft mit einer Geschwindigkeit von 8 m/s, während Jerry mit 7.5 m/s läuft!".
+Hier ist der angepasste JavaScript-Code für diese Übung mit Tom und Jerry:
+
+javascript
+
+// Testdaten 1
+let distanceTom = 100;
+let timeTom = 10;
+let distanceJerry = 120;
+let timeJerry = 12;
+
+let speedTom = distanceTom / timeTom;
+let speedJerry = distanceJerry / timeJerry;
+
+console.log(Sprintgeschwindigkeiten:
+Tom: ${speedTom} m/s
+Jerry: ${speedJerry} m/s);
+
+if (speedTom > speedJerry) {
+    console.log(Tom läuft schneller als Jerry! Tom läuft mit einer Geschwindigkeit von ${speedTom} m/s, während Jerry mit ${speedJerry} m/s läuft.);
+} else if (speedJerry > speedTom) {
+    console.log(Jerry läuft schneller als Tom! Jerry läuft mit einer Geschwindigkeit von ${speedJerry} m/s, während Tom mit ${speedTom} m/s läuft.);
+} else {
+    console.log("Tom und Jerry laufen mit derselben Geschwindigkeit!");
+}
+
+// Testdaten 2
+distanceTom = 80;
+timeTom = 8;
+distanceJerry = 90;
+timeJerry = 9;
+
+speedTom = distanceTom / timeTom;
+speedJerry = distanceJerry / timeJerry;
+
+console.log(Sprintgeschwindigkeiten:
+Tom: ${speedTom} m/s
+Jerry: ${speedJerry} m/s);
+
+if (speedTom > speedJerry) {
+    console.log(Tom läuft schneller als Jerry! Tom läuft mit einer Geschwindigkeit von ${speedTom} m/s, während Jerry mit ${speedJerry} m/s läuft.);
+} else if (speedJerry > speedTom) {
+    console.log(Jerry läuft schneller als Tom! Jerry läuft mit einer Geschwindigkeit von ${speedJerry} m/s, während Tom mit ${speedTom} m/s läuft.);
+} else {
+    console.log("Tom und Jerry laufen mit derselben Geschwindigkeit!");
+}
