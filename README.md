@@ -88,4 +88,10 @@ great website to get the JavaScript keydown event key, code, which and keyCode p
 3. subabase - https://supabase.io/
  - an open-source Firebase alternative. Instantly add authentication, a realtime database, serverless functions, and storage to your project 
 
+## React and Next.js
 
+1. react - https://reactjs.org/
+ - a javaScript library for building user interfaces
+
+2. react course - https://nextjs.org/learn/react-foundations
+ - free react course to prepare for nextjs
