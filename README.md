@@ -95,3 +95,5 @@ great website to get the JavaScript keydown event key, code, which and keyCode p
 
 2. react course - https://nextjs.org/learn/react-foundations
  - free react course to prepare for nextjs
+
+3. react nextjs examples - https://github.com/vercel/next.js/blob/canary/examples
